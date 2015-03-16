@@ -1,13 +1,12 @@
 /* Write a Program to copy its input to its output,replacing each string of one or more blanks by a single blank */
 
 #include<stdio.h>
-#define NONBLANK 'a'
 
 int main(void)
 {
 	int c,lastc;
 
-	lastc=NONBLANK;
+	lastc=65;
 
 	while((c=getchar())!=EOF)
 	{
